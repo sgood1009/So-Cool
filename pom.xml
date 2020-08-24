@@ -21,8 +21,9 @@
 
 	<!-- scripts / modules -->
 	<modules>
-		<module>yeet-flipper</module>
-		<module>yeet-slayerAIO</module>
+		<module>yeet-picker-aio</module>
+		<module>yeet-dyes-aio</module>
+		<module>yeet-runecrafting</module>
 	</modules>
 
 
@@ -34,7 +35,7 @@
 			<artifactId>client</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${dreambot.path}/BotData/DreamBot-Closed-Beta-Build-4.jar
+			<systemPath>${dreambot.path}/BotData/client-3.0.0.jar
 			</systemPath>
 		</dependency>
 	</dependencies>
