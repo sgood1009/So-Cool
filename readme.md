@@ -1,5 +1,7 @@
-# Dreambot 3 Maven Scripting Setup
-This Maven setup will allow users to build and manage multiple scripts in a single development environment.
+# Dreambot 3 Scripts
+This is a collection of Dreambot 3 open source scripts for eductional purposes.  The scripts might not be the most advanced or fully featured but hopefully they can be of use to aspiring scripters looking for a place to start.  This repository utilizes Apache Maven for managing external dependencies and building of the scripts.  Anyone is more than welcome to create pull request updating/implmenting new features to the scripts located in this repository.
+
+If you use large sections of a scripts source in your own please let me know I would love to see!
 
 ---
 
@@ -15,7 +17,7 @@ While these scripts can not be used on the Dreambot SDN for personal script or p
 
 ---
 
-## Managing script dependencies
+## Managing script dependencies with Maven
 ### Global dependencies
 These dependencies will be available to all scripts/submodules in your project.  An example of this is the Dreambot client.jar which we need to compile our scripts.
 ### Local dependencies
